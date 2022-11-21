@@ -27,6 +27,18 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".OneTapActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RickAndMorty">
+            <intent-filter>
+
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
     </application>
 
 </manifest>
